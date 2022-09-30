@@ -40,21 +40,65 @@ Obs: enviar parâmetros no corpo da requisição no formato **form-url-encode**
 
 
 **Rotas:**
-/api/pessoa /id \n
-/api/telefone /id \n
-/api/empresa /id \n
-/api/pessoa/{pessoa}/telefones \n
+
+**GET:**
+
+/api/pessoa 
+
+/api/pessoa/id
+
+/api/telefone
+
+/api/telefone/id
+
+/api/empresa
+
+/api/empresa/id
+
+/api/pessoa/{pessoa}/telefones 
+
+**POST:**
+
+/api/pessoa 
+
+/api/telefone
+
+/api/empresa
+
+**PUT:**
+
+/api/pessoa/id
+
+/api/telefone/id
+
+/api/empresa/id
+
+**DELETE:**
+
+/api/pessoa/id
+
+/api/telefone/id
+
+/api/empresa/id
 
 **campos:**
-pessoa:\n
-nome > obrigatorio / max 20 digitos\n
-cpf > obrigatorio / 11 digitos\n
-email > obrigatorio / padrao email\n
+pessoa:
 
-telefone:\n
-id_pessoa > obrigatorio / integer\n
-number > obrigatorio / entre 9 e 12 digitos\n
+nome > obrigatorio / max 20 digitos
 
-empresas:\n
-nome > obrigatorio / max 20 digitos\n
-cnpj > obrigatorio / 14 digitos\n
+cpf > obrigatorio / 11 digitos
+
+email > obrigatorio / padrao email
+
+telefone:
+
+id_pessoa > obrigatorio / integer
+
+number > obrigatorio / entre 9 e 12 digitos
+
+
+empresas:
+
+nome > obrigatorio / max 20 digitos
+
+cnpj > obrigatorio / 14 digitos
