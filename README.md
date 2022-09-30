@@ -41,7 +41,8 @@
 /api/empresa/id
 
 **campos:**
-pessoa:
+
+**pessoa:**
 
 nome > obrigatorio / max 20 digitos
 
@@ -49,14 +50,14 @@ cpf > obrigatorio / 11 digitos
 
 email > obrigatorio / padrao email
 
-telefone:
+**telefone:**
 
 id_pessoa > obrigatorio / integer
 
 number > obrigatorio / entre 9 e 12 digitos
 
 
-empresas:
+**empresas:**
 
 nome > obrigatorio / max 20 digitos
 
